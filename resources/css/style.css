@@ -25,7 +25,7 @@ color-palette: Primary-orange: #FF6F00 , secondary-orange: #E65100
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
     line-height: 1.15;
     /* 1 */
     -webkit-text-size-adjust: 100%;
@@ -405,34 +405,46 @@ template {
 2.Fonts
 *********************************************/
 
-  /* roboto-condensed-regular - latin */
-  @font-face {
+/* roboto-condensed-regular - latin */
+@font-face {
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    src: url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
-  }
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-regular.svg#RobotoCondensed') format('svg');
+    /* Legacy iOS */
+}
 
-  /* roboto-condensed-700 - latin */
-  @font-face {
+/* roboto-condensed-700 - latin */
+@font-face {
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
-    src: url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
-  }
- 
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../../vendors/fonts/roboto-condensed/roboto-condensed-v16-latin-700.svg#RobotoCondensed') format('svg');
+    /* Legacy iOS */
+}
+
 
 
 /*********************************************
@@ -450,11 +462,7 @@ h1 {
 }
 
 html,
-body {  
-    /* background-image: url('../../Coming\ soon.jpg'); */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+body {
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 62.5%;
@@ -508,7 +516,7 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
@@ -545,3 +553,197 @@ section {
     text-decoration: none;
     color: #fafafa;
 }
+
+/* .social-links2 {
+    display: none;
+} */
+
+
+
+/*********************************************
+4.Media queries
+*********************************************/
+
+@media (max-width: 5120px) {
+
+    .social-links2 {
+        display: none;
+    }
+}
+
+@media (max-width: 3840px) {
+
+    .social-links2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 2048px) {
+
+    .social-links2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1920px) {
+
+    .profile-pic {
+        margin-top: 250px;
+    }
+
+}
+
+@media (max-width: 1366px) {
+   
+    .social-links2 {
+        display: none;
+    }
+
+}  
+
+@media (max-width: 1024px) {
+   
+    .social-links2 {
+        display: none;
+    }
+
+}    
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   
+    .social-links {
+        margin-right: 20px;
+    }
+
+    .logo img {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+   
+    .vector img {
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    .title {
+        margin-top: 20px;
+        font-size: 3.2rem;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 2.2rem;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    .btn a {
+        font-size: 1.8rem;
+    }
+      
+    .social-links2 {
+        display: none;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .social-links {
+        margin-right: 20px;
+    }
+
+    .logo img {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+   
+    .vector img {
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    .title {
+        margin-top: 20px;
+        font-size: 2.6rem;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    .btn a {
+        font-size: 1.3rem;
+    }  
+    
+    .social-links2 {
+        display: none;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .social-links {
+        display: none;
+    }
+
+    .logo img {
+        height: 50px;
+        margin-left: 20px;
+    }
+   
+    .vector img {
+        margin-left: 25px;
+        height: 180px;
+    }
+
+    .title {
+        margin-top: 20px;
+        font-size: 2.6rem;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    .btn a {
+        font-size: 1.3rem;
+    }
+      
+    .social-links2 {
+        display: inline-block ;
+        margin-top: 50px;
+        font-size: 2rem;
+        font-weight: 700;
+        list-style: none;
+    }
+    
+    .social-links2 li {
+        display: inline-block;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    
+    .social-links2 li:last-child {
+        margin-right: 0;
+    }
+
+}
+
+
