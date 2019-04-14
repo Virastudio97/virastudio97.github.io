@@ -521,7 +521,7 @@ section {
 }
 
 .vector img {
-    margin-left: 45px;
+    margin-left: 35px;
     height: 300px;
 }
 
@@ -554,9 +554,9 @@ section {
     color: #fafafa;
 }
 
-/* .social-links2 {
+.social-links2 {
     display: none;
-} */
+}
 
 
 
@@ -564,56 +564,9 @@ section {
 4.Media queries
 *********************************************/
 
-@media (max-width: 5120px) {
-
-    .social-links2 {
-        display: none;
-    }
-}
-
-@media (max-width: 3840px) {
-
-    .social-links2 {
-        display: none;
-    }
-
-}
-
-@media (max-width: 2048px) {
-
-    .social-links2 {
-        display: none;
-    }
-
-}
-
-@media (max-width: 1920px) {
-
-    .profile-pic {
-        margin-top: 250px;
-    }
-
-}
-
-@media (max-width: 1366px) {
-   
-    .social-links2 {
-        display: none;
-    }
-
-}  
-
-@media (max-width: 1024px) {
-   
-    .social-links2 {
-        display: none;
-    }
-
-}    
-
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-   
+
     .social-links {
         margin-right: 20px;
     }
@@ -622,7 +575,7 @@ section {
         margin-top: 30px;
         margin-left: 30px;
     }
-   
+
     .vector img {
         margin-left: 40px;
         height: 300px;
@@ -645,10 +598,6 @@ section {
     .btn a {
         font-size: 1.8rem;
     }
-      
-    .social-links2 {
-        display: none;
-    }
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -661,7 +610,7 @@ section {
         margin-top: 30px;
         margin-left: 30px;
     }
-   
+
     .vector img {
         margin-left: 40px;
         height: 300px;
@@ -683,10 +632,6 @@ section {
 
     .btn a {
         font-size: 1.3rem;
-    }  
-    
-    .social-links2 {
-        display: none;
     }
 
 }
@@ -702,7 +647,7 @@ section {
         height: 50px;
         margin-left: 20px;
     }
-   
+
     .vector img {
         margin-left: 25px;
         height: 180px;
@@ -725,7 +670,7 @@ section {
     .btn a {
         font-size: 1.3rem;
     }
-      
+
     .social-links2 {
         display: inline-block ;
         margin-top: 50px;
@@ -733,17 +678,15 @@ section {
         font-weight: 700;
         list-style: none;
     }
-    
+
     .social-links2 li {
         display: inline-block;
         margin-right: 20px;
         text-decoration: none;
     }
-    
+
     .social-links2 li:last-child {
         margin-right: 0;
     }
 
 }
-
-
