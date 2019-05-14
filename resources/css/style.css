@@ -467,6 +467,7 @@ body {
     font-weight: 400;
     font-size: 62.5%;
     text-rendering: optimizeLegibility;
+    background-color: #131418;
 }
 
 .container {
@@ -492,7 +493,7 @@ a:active {
 .social-links {
     margin-top: 47px;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     list-style: none;
 }
 
@@ -500,6 +501,10 @@ a:active {
     display: inline-block;
     margin-right: 25px;
     text-decoration: none;
+}
+
+.social-links a {
+    color: #fff;
 }
 
 .social-links li:last-child {
@@ -529,14 +534,14 @@ section {
     margin-top: 30px;
     font-size: 3.6rem;
     font-weight: 700;
-    color: #223260;
+    color: #fff;
 }
 
 .subtitle {
     margin-top: 10px;
     font-size: 2.5rem;
     font-weight: 300;
-    color: #3E4852;
+    color: #BDBDBD;
 }
 
 .btn {
