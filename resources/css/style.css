@@ -504,6 +504,11 @@ a:active {
 }
 
 .social-links a {
+    color: #BDBDBD;
+}
+
+.social-links a:hover,
+.social-links a:active {
     color: #fff;
 }
 
@@ -692,6 +697,15 @@ section {
 
     .social-links2 li:last-child {
         margin-right: 0;
+    }
+
+    .social-links2 a {
+        color: #BDBDBD;
+    }
+    
+    .social-links2 a:hover,
+    .social-links2 a:active {
+        color: #fff;
     }
 
 }
